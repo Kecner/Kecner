@@ -1,24 +1,16 @@
-# Kecner
 
-<p align="center">
-  <img src="1000022870.jpg" width="250" alt="Kecner Logo">
-</p>
+# 🦅 Kecner v1.0 - Security Tool
 
-## 👋 About Me
-**Python Developer | Cyber Security Enthusiast**
+Kecner, ağ analizi ve bilgi toplama için geliştirilmiş Python tabanlı bir güvenlik aracıdır.
 
-## 🔥 My Projects
+## 🚀 Özellikler
+* **Port Scanner:** Belirlenen IP adresindeki kritik portları hızlıca tarar.
+* **IP Tracker:** Hedef IP adresi hakkında detaylı konum ve servis bilgisi toplar.
+* **Modern Arayüz:** Terminal üzerinde renkli ve kullanıcı dostu tasarım.
 
-### Kecner v1.1 - Fast Port Scanner
-A fast and efficient multithreaded TCP port scanner designed for network discovery.
-
-**Features:**
-- ⚡ **Multi-threaded scanning:** High-speed performance.
-- 🔍 **Service Identification:** Detects common network services.
-- 🚀 **Optimized Discovery:** Minimal resource usage with fast results.
-- 🛡️ **Clean Interface:** User-friendly terminal output.
-
-**Usage:**
+## 🛠️ Kurulum
 ```bash
-python3 Kecner.py
-
+git clone [https://github.com/Kecner/Kecner.git](https://github.com/Kecner/Kecner.git)
+cd Kecner
+pip install requests
+python Kecner.py
